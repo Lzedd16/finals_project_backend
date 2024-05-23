@@ -1,0 +1,60 @@
+.patient-list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8b0000; /* Maroon color for the title */
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #8b0000; /* Maroon color border for input */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8b0000; /* Maroon color for the button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #660000; /* Darker maroon color on hover */
+}
+
+.patient-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.patient-item {
+    padding: 10px;
+    border: 1px solid #8b0000; /* Maroon color border for patient item */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #8b0000; /* Maroon color for patient item text */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.patient-item:hover {
+    background-color: #8b0000; /* Maroon color background on hover */
+    color: #fff; /* White text color on hover */
+}
